@@ -50,6 +50,12 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
+# Site Author
+author:
+  name: "Tanvin Kalra"
+  avatar: "/assets/images/initials.png"
+  bio: "Software Engineer, TartanHQ"
+
 # Site Footer
 footer:
   links:
