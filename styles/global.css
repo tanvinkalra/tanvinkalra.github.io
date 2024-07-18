@@ -1,0 +1,106 @@
+:root {
+  /* fonts */
+  --font-primary: "Inter", sans-serif;
+  --font-secondary: "Source Code Pro", monospace;
+  --font-hero: "Shadows Into Light", cursive;
+
+  /* colors */
+  --clr-dark: #101214; /* DarkNeutral100*/
+
+  --clr-text: #596773; /* DarkNeutral500 */
+  --clr-light: #b6c2cf; /* DarkNeutral900 */
+  --clr-neutral1000: #c7d1db; /* DarkNeutral1000 */
+  --clr-neutral1100: #dee4ea; /* DarkNeutral1100 */
+
+  /* sizes */
+  --size-xxs: 0.5rem;
+  --size-xs: 0.75rem;
+  --size-sm: 0.875rem;
+  --size-base: 1rem;
+  --size-lg: 1.125rem;
+  --size-xl: 1.25rem;
+  --size-2xl: 1.5rem;
+  --size-3x1: 1.875rem;
+  --size-4x1: 2.25rem;
+  --size-5x1: 3rem;
+  --size-6x1: 3.75rem;
+  --size-7xl: 4.5rem;
+  --size-8x1: 6rem;
+  --size-9x1: 8rem;
+  --size-10x1: 10rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  line-height: calc(1em + 0.5rem);
+}
+
+body {
+  font-family: var(--font-primary);
+  background-color: var(--clr-dark);
+  color: var(--clr-light);
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  letter-spacing: -0.025em;
+}
+
+p {
+  color: var(--clr-text);
+}
+
+a {
+  color: var(--clr-neutral1100);
+}
+
+strong {
+  color: var(--clr-light);
+  font-weight: 900;
+}
+
+button:focus-visible,
+a:focus-visible {
+  outline: solid var(--clr-light);
+}
+
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--clr-neutral1100);
+  outline: 1px solid var(--clr-neutral1100);
+}
