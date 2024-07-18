@@ -5,8 +5,9 @@
   --font-hero: "Shadows Into Light", cursive;
 
   /* colors */
-  --clr-dark: #101214; /* DarkNeutral100*/
+  --clr-dark: #101214; /* DarkNeutral-100*/
 
+  --clr-bg: #1d2125; /* DarkNeutral100*/
   --clr-neutral350: #38414a; /* DarkNeutral350 */
   --clr-neutral400: #454f59; /* DarkNeutral400 */
   --clr-text: #596773; /* DarkNeutral500 */
