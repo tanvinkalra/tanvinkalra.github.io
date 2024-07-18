@@ -9,7 +9,8 @@
 
   --clr-neutral350: #38414a; /* DarkNeutral350 */
   --clr-text: #596773; /* DarkNeutral500 */
-  --clr-light: #b6c2cf; /* DarkNeutral900 */
+  --clr-light: #e2e8f0; /* slate200 */
+  --clr-muted: #b6c2cf; /* DarkNeutral900 */
   --clr-neutral1000: #c7d1db; /* DarkNeutral1000 */
   --clr-neutral1100: #dee4ea; /* DarkNeutral1100 */
 
@@ -22,13 +23,13 @@
   --size-xl: 1.25rem;
   --size-2xl: 1.5rem;
   --size-3xl: 1.875rem;
-  --size-4x1: 2.25rem;
-  --size-5x1: 3rem;
-  --size-6x1: 3.75rem;
+  --size-4xl: 2.25rem;
+  --size-5xl: 3rem;
+  --size-6xl: 3.75rem;
   --size-7xl: 4.5rem;
-  --size-8x1: 6rem;
-  --size-9x1: 8rem;
-  --size-10x1: 10rem;
+  --size-8xl: 6rem;
+  --size-9xl: 8rem;
+  --size-10xl: 10rem;
 }
 
 * {
