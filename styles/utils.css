@@ -26,10 +26,10 @@
   display: inline-block;
   background-color: var(--clr-neutral1100);
   color: var(--clr-dark);
-  padding: 0.5em 1rem;
+  padding: 0.35em 1rem;
   font-weight: 500;
   border-radius: 6px;
-  line-height: 1.75rem;
+  line-height: 1.5rem;
   text-decoration: none;
   transition: background-color 0.3s;
 }
